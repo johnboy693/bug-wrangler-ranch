@@ -105,11 +105,14 @@ Your journey will take you through the wildness of the American Midwest and acro
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > Your answer here
+   > Your answer here:
+   >  The value of drovers here is 5, because in the hireDrovers function it divides the total number of cattle (50, which is defined in the cattleToDrive parameter) by 10. So 50 cattle / 10 = 5
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > Your answer here
+   > Your answer here:
+   > the value of "drover" is a particular item in the "drovers" array. the value of "drovers" is 5 because it was defined in "const drovers = hireDrovers(cattleToDrive);" at the top of the code
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
-   > Your public Loom URL here
+   > Your public Loom URL here:
+   > https://www.loom.com/share/aba069f7fc264063afef4b24f39fa293?sid=d0abe134-8313-4234-84bc-fd6124067b67
 4. Also in the **journey** module, there is the following code:
    ```js
    for (let forestNumber = 0; forestNumber < areas.forests; forestNumber++) {
@@ -117,11 +120,17 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > Your answer here
+   > Your answer here:
+   > Your answer here: in this loop forestNumber is initialized and is assigned a value of 0. It then goes on to say that if the value of forestNumber is less than areas.forests, then it will iterate through the loop again until the loop is over.
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > Your answer here
+   > Your answer here:
+   > The value of the database variable contains all of the data for the code. It is an object containing the properties for cattleTypes, and drovers.
+
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > Your answer here
+   > Your answer here:
+   >   It’s defining the size of the herd which is 50. It gets its value from the lines “const cattleToDrive = 50”; and “const drovers = hireDrovers(cattleToDrive);” in the **main** module.
+
+
 
 
 ## Final Step
