@@ -112,7 +112,7 @@ Your journey will take you through the wildness of the American Midwest and acro
    > the value of "drover" is a particular item in the "drovers" array. the value of "drovers" is 5 because it was defined in "const drovers = hireDrovers(cattleToDrive);" at the top of the code
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
    > Your public Loom URL here:
-   > https://www.loom.com/share/aba069f7fc264063afef4b24f39fa293?sid=d0abe134-8313-4234-84bc-fd6124067b67
+   > https://www.loom.com/share/5071b0c31237417b878a92415da1732e?sid=ac41c3f5-fa38-4e16-951b-27898b714a43
 4. Also in the **journey** module, there is the following code:
    ```js
    for (let forestNumber = 0; forestNumber < areas.forests; forestNumber++) {
